@@ -1,1 +1,3 @@
-# fileOrganizer
+# file organizer
+
+The application focuses on the management of the different files of the college. This application can provide easy access to different documents including pdfs, docs, etc...

@@ -1,32 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rethink+Sans:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;600;700;800;900;1000&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rethink+Sans:wght@400;500;600;700;800&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-weight: 500;
+    font-size: 18px;
 }
 body{
+    background-color: rgb(255, 255, 255);
     max-height: fit-content;
     min-height: 100vh;
     width: 100dvw;
 }
 .main-content-wrapper{
-    margin: 2rem 4rem;
-    border: 2px solid rgb(204, 204, 204);
-    border-radius: 2rem;
+    background-color: white;
+    margin: 4rem 4rem ;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 1.75rem;
+    padding: 2rem;
+    /* box-shadow: 0 0 2rem rgb(232, 232, 232); */
 }
 .item-wrapper{
-    padding: 1rem;
+    padding: .8rem 2rem;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-block-end: 1px solid rgb(234, 234, 234);
+}
+.item-wrapper:last-child{
+    border-block-end: none;
+}
+.item-name-wrapper{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.options-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
 }
 .option{
-    padding: .5rem 1rem;
+    padding: .6rem 1.2rem;
+    /* padding-inline-end: .5rem; */
     border: 1px solid gray;
-    border-radius: .8rem;
+    border-radius: 50rem;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: .9rem;
+    cursor: pointer;
+    display: flex;
 }
+/* .img{
+    width: 1rem;
+    height: auto;
+    padding: 0 1rem;
+    padding-inline-start: 1rem;
+    border-inline-start: 1px solid rgb(79, 79, 79);
+    margin-inline-start: 1rem;
+    background-image: url(./assets/angle-right.svg);
+    background-position: center;
+    background-size: .9rem;
+    background-repeat: no-repeat;
+} */
 a{
     width: fit-content;
     height: fit-content;
+    display: inline-block;
+    text-decoration: none;
 }
-

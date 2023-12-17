@@ -11,7 +11,7 @@ body{
     background-color: rgb(255, 255, 255);
     max-height: fit-content;
     min-height: 100vh;
-    width: 100dvw;
+    width: 100%;
 }
 .main-content-wrapper{
     background-color: white;

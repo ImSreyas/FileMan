@@ -3,7 +3,7 @@
 <strong>
 ✨ Web app for managing your files easily. 🔥
   
-🌐 Visit the web app now - <a href="https://imsreyas.github.io/fileOrganizer/">FileMan</a>
+🌐 Visit the web app now - <a href="https://imsreyas.github.io/FileMan/">FileMan</a>
 </strong>
 </div>
 
